@@ -14,5 +14,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: <i class="fa fa-language" aria-hidden="true"></i><b> TR</b>
+    url: https://hasancelik.org
   # - title: "Sitemap"
   #   url: /sitemap/
