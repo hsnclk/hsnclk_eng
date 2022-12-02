@@ -51,11 +51,14 @@ In the above example, we can easily understand what this code does.
 
 **How is it doing it? :** it is doing it by using a standard for-loop. It defines a variable in the for-loop and does this by incrementing it one at a time and comparing it to the name it is looking for.
 
-In summary, we show step by step *how we do* the necessary actions to find this name(*what we do*).
+In summary, we show step by step the <u>necessary actions</u> (that is, **how we do** part) <u>to find this name</u>(that is, **what we do** part).
 
-### Note:
+<div class="notice--success" markdown="1">
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> Note:</h4>
+---
 
 At the core of the familiar imperative style are **mutability** and **command-driven** programming. We create variables or objects and modify their state along the way. We also provide detailed commands or instructions to execute, such as create a loop index, increment its value, check if we reached the end, update the nth element of an array, and so on.
+</div>
 
 ## Declarative Style Programming
 
@@ -89,13 +92,13 @@ In both cases, it's obvious what we're going to do. Our goal is to print the ele
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-02-23-imperative-and-declarative-programming/forloops.webp"  width="100%" height="100%" loading="lazy" alt="for loops example">
 
-Actually both the **standard for loop** *(for i = 0...)* and the **enhanced for loop** *(for var x : ...)* are **imperative style**. The **enhanced for loop** is really a wrapper around
+Actually both the **standard for loop** *(for i = 0...)* and the **enhanced for loop** *(for var x : ...)* are **imperative style**. The **enhanced for loop** is actually a wrapper around
 `iterator.hasNext()` and `iterator.next()`. That is, under the hood this form of iteration uses the `Iterator` interface and calls into its `hasNext` and `next` methods. Furthermore, from the **enhanced for loop** we can do `break` and `continue` with an if condition, and that is where we see the **imperative** nature being
 enhanced clearly.
 
 > ENHANCED for loop is more declarative than the STANDARD for loop
 
-We can say that the enhanced for loop moves the needle towards **declarative style**. However, it is not entirely in the land of **declarative style**. Both the **standard loop** and the **enhanced loops** are external iterators which are **imperative** in nature. In both the loops we control the flow using if `break` or if `continue`. We do a little bit less of the controlling in enhanced for loop compared to the standard for loop. Nevertheless both allow for imperative control.
+We can say that the enhanced for loop moves the needle towards **declarative style**. However, it is not entirely in the land of **declarative style**. Both the **standard loop** and the **enhanced loops** are external iterators which are **imperative** in nature. In both loops, we control the flow using "if `break`" or "if `continue`". We do a little bit less of the controlling in enhanced for loop compared to the standard for loop. Nevertheless both allow for imperative control.
 
 
 ## Reference:
