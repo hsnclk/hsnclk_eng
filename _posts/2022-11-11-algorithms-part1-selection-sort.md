@@ -94,8 +94,8 @@ public class SelectionSort {
 5. There is an "**if**" statement inside in the inner loop, **if (list[j + 1] < list[smallest])**. Here, the **smallest** value is compared with the value just after the smallest value. If we encounter a smaller value, we update this value to the new smallest.
 6. If the inner loop finds even one smallest value, it enters the **if statement** outside the inner loop, which replaces the smallest value found with the value in the first position(which is of course the position that I hold via outer loop).
 7. After the first position of my outer loop is replaced by the smallest value(if any), we repeat the same process with the 2nd position of my outer loop by increasing the **i** number by **one**. Then, the same operations continue until the **penultimate position(list.length-1)** of my outer loop.
----
 
+---
 
 <div class="notice--warning" markdown="1">
 <h4 class="no_toc"><i class="fas fa-comment"></i> Note:</h4>
