@@ -33,7 +33,7 @@ The following card game simply explains how the **selection sort algorithm** wor
 
 To do this; first we need to start with the element in the **first position** and compare this element with other elements to find the **smallest** element. In this situation, our first item will be our **reference value**, as it will be replaced with the smallest item in the list, if any. <u>Anyway, if we find the smallest element in the part of the list other than the first position, we need to <b>swap</b> it with the first element(of course if this value found is less than the first item!).</u> After placing the smallest item in the list in the first position, we will continue the similar operations starting from position 2. In this case, our reference becomes the **2nd** item. After the comparison and, if any, displacement operations are finished, we need to continue the similar operations until the **penultimate** element of the list, respectively. In summary, this is how the selection sort algorithm works.
 
-<div class="notice--warning" markdown="1">
+<!-- <div class="notice--warning" markdown="1">
 <h4 class="no_toc"><i class="fas fa-comment"></i> Note:</h4>
 ---
 If you want to see how the algorithm works step by step, you can press the **STEP** button.
@@ -42,12 +42,14 @@ Or click the **PLAY** button to run the game by itself.
 
 Finally, if you want to shuffle the cards again and restart the game, you can press the **SHUFFLE** button.
 
-</div>
+</div> -->
 
-<iframe sandbox="allow-popups allow-same-origin allow-scripts allow-top-navigation" src="https://www.khanacademy.org/computer-programming/program/4808854910533632/embedded?embed=yes&amp;author=no&amp;editor=no&amp;width=688&amp;buttons=no&amp;settings=%7B%22sortType%22%3A%22selection%22%7D" class="perseus-scratchpad" allowfullscreen="" style="height: 450px; width: 100%; border-top-width: 0px;
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif" srcset="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card-small.gif 480w, {{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif 1080w" sizes="50vw" width="400px" height="100%" class="align-center" loading="lazy" alt="Selection Sort Algorithm">
+
+<!-- <iframe sandbox="allow-popups allow-same-origin allow-scripts allow-top-navigation" src="https://www.khanacademy.org/computer-programming/program/4808854910533632/embedded?embed=yes&amp;author=no&amp;editor=no&amp;width=688&amp;buttons=no&amp;settings=%7B%22sortType%22%3A%22selection%22%7D" class="perseus-scratchpad" allowfullscreen="" style="height: 450px; width: 100%; border-top-width: 0px;
 border-right-width: 0px;
 border-bottom-width: 0px;
-border-left-width: 0px;" title="Selection Sort Algorithm"></iframe>
+border-left-width: 0px;" title="Selection Sort Algorithm"></iframe> -->
 
 ### An Example of Selection Sort
 
