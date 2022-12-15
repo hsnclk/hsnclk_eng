@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Book Recommendations and Reviews"
-permalink: /reviews/
+permalink: /book-reviews/
 author_profile: true
 header:
   overlay_color: "#000"

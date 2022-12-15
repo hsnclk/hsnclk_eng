@@ -5,15 +5,15 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Books"
-    url: /reviews/
+    url: /book-reviews/
   # - title: "Advices"
   #   url: /recommends/
   - title: "Articles"
-    url: /year-archive/
+    url: /posts-by-year/
   - title: "Categories"
-    url: /categories/
+    url: /posts-by-categories/
   - title: "Tags"
-    url: /tags/
+    url: /posts-by-tags/
   - title: <i class="fa fa-language" aria-hidden="true"></i><b> TR</b>
     url: https://hasancelik.org
   # - title: "Sitemap"

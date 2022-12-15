@@ -3,9 +3,9 @@ title: "Imperative and Declarative Style Programming (Programming Style Part 1)"
 comments: false
 excerpt: "In this article I am going to try to explain the difference between imperative and declarative style programming"
 header:
-  teaser: "assets/images/2022-02-23-imperative-and-declarative-programming/imp.webp"
+  teaser: "assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.webp"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-02-23-imperative-and-declarative-programming/imp.webp
+  og_image: /assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.webp
   overlay_image: /assets/images/unsplash-image-60.webp
   overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
   caption: "Photo by [Omid Armin](https://unsplash.com/photos/edANaB0ZFVo) on Unsplash"
@@ -90,7 +90,8 @@ In both cases, it's obvious what we're going to do. Our goal is to print the ele
 
 **In the enhanced for loop;** A string variable, *name*, is declared to hold each element of the array. But we don't know **how** this loop does all these operations.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-02-23-imperative-and-declarative-programming/forloops.webp"  width="100%" height="100%" loading="lazy" alt="for loops example">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-02-23-imperative-declarative-programming-in-java/forloops.webp"  width="100%" height="100%" loading="lazy" alt="for loops example">
+
 
 Actually both the **standard for loop** *(for i = 0...)* and the **enhanced for loop** *(for var x : ...)* are **imperative style**. The **enhanced for loop** is actually a wrapper around
 `iterator.hasNext()` and `iterator.next()`. That is, under the hood this form of iteration uses the `Iterator` interface and calls into its `hasNext` and `next` methods. Furthermore, from the **enhanced for loop** we can do `break` and `continue` with an if condition, and that is where we see the **imperative** nature being

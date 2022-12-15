@@ -3,7 +3,7 @@ title: "Menexenus (Book Review)"
 comments: false
 excerpt: "2022 Reading Challenge - Book Review of Menexenus by Plato"
 header:
-  teaser: "assets/images/reviews/2022-1.webp"
+  teaser: "assets/images/book-reviews/2022-1.webp"
   og_image: /assets/images/2022-1.webp
   overlay_image: /assets/images/unsplash-image-2.webp
   overlay_color: "#000"
