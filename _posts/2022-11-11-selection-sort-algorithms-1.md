@@ -3,9 +3,9 @@ title: "Algorithms Part 1 - Selection Sort"
 comments: false
 excerpt: "In this section, I am going to explain what the selection sort algorithm is and how its performance behaves in worst, best and average case scenario"
 header:
-  teaser: "/assets/images/2022-11-11-algorithms-part1-selection-sort/selection-sort.webp"
+  teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.webp"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-11-11-algorithms-part1-selection-sort/selection-sort.webp
+  og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.webp
   overlay_image: /assets/images/unsplash-image-58.webp
   overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
   caption: "Photo by [zero take](https://unsplash.com/photos/jSB9PWaxhXo) on Unsplash"
@@ -47,8 +47,8 @@ Finally, if you want to shuffle the cards again and restart the game, you can pr
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif" srcset="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card-small.gif 480w, {{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif 1080w" sizes="50vw" width="420px" height="100%" class="align-center" loading="lazy" alt="Selection Sort Algorithm"> -->
 
 <video autoplay loop muted playsinline width="380px" height="100%" class="align-center" title="Selection Sort Algorithm">
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/selection-sort.webm" type="video/webm">
-  <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/selection-sort.mp4" type="video/mp4">
+  <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.webm" type="video/webm">
+  <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.mp4" type="video/mp4">
 </video>
 
 <!-- <iframe sandbox="allow-popups allow-same-origin allow-scripts allow-top-navigation" src="https://www.khanacademy.org/computer-programming/program/4808854910533632/embedded?embed=yes&amp;author=no&amp;editor=no&amp;width=688&amp;buttons=no&amp;settings=%7B%22sortType%22%3A%22selection%22%7D" class="perseus-scratchpad" allowfullscreen="" style="height: 450px; width: 100%; border-top-width: 0px;
