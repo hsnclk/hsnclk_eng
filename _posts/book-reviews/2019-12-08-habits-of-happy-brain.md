@@ -3,9 +3,9 @@ title: "Habits of a Happy Brain (Book Review)"
 comments: false
 excerpt: "2019 Reading Challenge - Habits of a Happy Brain: Retrain Your Brain to Boost Your Serotonin, Dopamine, Oxytocin, Endorphin Levels - Author: Loretta Graziano Breuning"
 header:
-  teaser: "assets/images/book-reviews/2019-25.webp"
-  og_image: /assets/images/2019-25.webp
-  overlay_image: /assets/images/unsplash-image-2.webp
+  teaser: "assets/images/book-reviews/2019-25.jpg"
+  og_image: /assets/images/2019-25.jpg
+  overlay_image: /assets/images/unsplash-image-2.jpg
   overlay_color: "#000"
   overlay_filter: "0.5"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

@@ -3,10 +3,10 @@ title: "Imperative and Declarative Style Programming (Programming Style Part 1)"
 comments: false
 excerpt: "In this article I am going to try to explain the difference between imperative and declarative style programming"
 header:
-  teaser: "assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.webp"
+  teaser: "assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.webp
-  overlay_image: /assets/images/unsplash-image-60.webp
+  og_image: /assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png
+  overlay_image: /assets/images/unsplash-image-60.jpg
   overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
   caption: "Photo by [Omid Armin](https://unsplash.com/photos/edANaB0ZFVo) on Unsplash"
   #cta_label: "More Info"
