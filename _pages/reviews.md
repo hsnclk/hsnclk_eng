@@ -5,8 +5,8 @@ permalink: /book-reviews/
 author_profile: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-2.jpg
+  overlay_filter: "0.3"
+  overlay_image: /assets/images/unsplash-image-2.jpeg
   #cta_label: "Download"
   #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

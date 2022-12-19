@@ -3,12 +3,12 @@ title: "Algorithms Part 1 - Selection Sort"
 comments: false
 excerpt: "In this section, I am going to explain what the selection sort algorithm is and how its performance behaves in worst, best and average case scenario"
 header:
-  teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.jpg"
+  teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.jpg
-  overlay_image: /assets/images/unsplash-image-59.jpg
+  og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png
+  overlay_image: /assets/images/unsplash-image-58.jpeg
   overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
-  caption: "Photo by [Jan-Willem van Braak](https://unsplash.com/photos/O1a7pN2MKpM) on Unsplash"
+  caption: "Photo by [zero take](https://unsplash.com/photos/jSB9PWaxhXo) on Unsplash"
 
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"

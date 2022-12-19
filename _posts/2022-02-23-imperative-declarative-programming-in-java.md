@@ -6,8 +6,8 @@ header:
   teaser: "assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png"
   #og_image: /assets/images/page-header-og-image.png
   og_image: /assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png
-  overlay_image: /assets/images/unsplash-image-60.jpg
-  overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
+  overlay_image: /assets/images/unsplash-image-60.jpeg
+  overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
   caption: "Photo by [Omid Armin](https://unsplash.com/photos/edANaB0ZFVo) on Unsplash"
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"

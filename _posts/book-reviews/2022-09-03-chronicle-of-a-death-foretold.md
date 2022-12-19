@@ -3,12 +3,12 @@ title: "Chronicle of a Death Foretold (Book Review)"
 comments: false
 excerpt: "2022 Reading Challenge - Book Review of Chronicle of a Death Foretold by Gabriel García Márquez"
 header:
-  teaser: "assets/images/book-reviews/2022-2.jpg"
-  og_image: /assets/images/2022-2.jpg
-  overlay_image: /assets/images/unsplash-image-2.jpg
+  teaser: "assets/images/book-reviews/2022-2.png"
+  og_image: /assets/images/2022-2.png
+  overlay_image: /assets/images/unsplash-image-2.jpeg
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_filter: "0.3"
+  caption: "Photo by [RetroSupply](https://unsplash.com/photos/jLwVAUtLOAQ)"
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"
 categories:
