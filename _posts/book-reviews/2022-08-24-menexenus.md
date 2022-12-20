@@ -5,10 +5,10 @@ excerpt: "2022 Reading Challenge - Book Review of Menexenus by Plato"
 header:
   teaser: "assets/images/book-reviews/2022-1.png"
   og_image: /assets/images/2022-1.png
-  overlay_image: /assets/images/unsplash-image-2.jpeg
+  overlay_image: /assets/images/svg-book5.svg
   overlay_color: "#000"
   overlay_filter: "0.3"
-  caption: "Photo by [RetroSupply](https://unsplash.com/photos/jLwVAUtLOAQ)"
+  caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"
 categories:

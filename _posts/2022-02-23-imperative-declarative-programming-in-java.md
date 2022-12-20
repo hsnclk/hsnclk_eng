@@ -6,9 +6,9 @@ header:
   teaser: "assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png"
   #og_image: /assets/images/page-header-og-image.png
   og_image: /assets/images/2022-02-23-imperative-declarative-programming-in-java/imp.png
-  overlay_image: /assets/images/unsplash-image-60.jpeg
+  overlay_image: /assets/images/svg-book6.svg
   overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
-  caption: "Photo by [Omid Armin](https://unsplash.com/photos/edANaB0ZFVo) on Unsplash"
+  caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"
 categories:
@@ -26,6 +26,15 @@ toc_label: "CONTENT"
 
 **IMPORTANT :** The notes that I took for myself. I hope they will help you, too. Each resource that I used is added as reference at the end of the page.
 {: .notice}
+
+<div class="notice--success" markdown="1">
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> Programming Style Series</h4>
+---
+
+1. **Programming Style Part 1 - Imperative and Declarative Style Programming**
+2. Programming Style Part 2 - [Higher Order Functions](/programming-style/higher-order-functions-in-java/)
+
+</div>
 
 ## Imperative Style Programming
 

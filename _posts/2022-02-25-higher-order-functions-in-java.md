@@ -6,9 +6,9 @@ header:
   teaser: "/assets/images/2022-02-25-higher-order-functions-in-java/higher.png"
   #og_image: /assets/images/page-header-og-image.png
   og_image: /assets/images/2022-02-25-higher-order-functions-in-java/higher.png
-  overlay_image: /assets/images/2022-02-25-higher-order-functions-in-java/higher_f.jpeg
-  overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
-  caption: "Photo by [Etienne Girardet](https://unsplash.com/photos/Xh6BpT-1tXo) on Unsplash"
+  overlay_image: /assets/images/svg-book6.svg
+  overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
+  caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"
 categories:
@@ -27,6 +27,15 @@ toc_label: "CONTENT"
 
 **IMPORTANT :** The notes that I took for myself. I hope they will help you too.. Each resource that I used is added as reference at the end of the page.
 {: .notice}
+
+<div class="notice--success" markdown="1">
+<h4 class="no_toc"><i class="fas fa-lightbulb"></i> Programming Style Series</h4>
+---
+
+1. Programming Style Part 1 - [Imperative and Declarative Style Programming](/programming-style/imperative-declarative-programming-in-java/)
+2. **Programming Style Part 2 - Higher Order Functions**
+
+</div>
 
 First things first, we have to know some definitions to understand higher order functions. I would like to start with the term of "**first-class citizen**"
 

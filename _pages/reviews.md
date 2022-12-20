@@ -6,10 +6,10 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/unsplash-image-2.jpeg
+  overlay_image: /assets/images/svg-book5.svg
+  caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
   #cta_label: "Download"
   #cta_url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Whenever possible, I will try to share the reviews of the books I have read."
 entries_layout: grid
 classes: wide

@@ -6,9 +6,9 @@ header:
   teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png"
   #og_image: /assets/images/page-header-og-image.png
   og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png
-  overlay_image: /assets/images/unsplash-image-58.jpeg
-  overlay_filter: 0.5 #rgba(255, 0, 0, 0.5)
-  caption: "Photo by [zero take](https://unsplash.com/photos/jSB9PWaxhXo) on Unsplash"
+  overlay_image: /assets/images/svg-book7.svg
+  overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
+  caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
 
   #cta_label: "More Info"
   #cta_url: "https://unsplash.com"
