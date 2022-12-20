@@ -3,9 +3,11 @@ title: "Higher Order Functions (Programming Style Part 2)"
 comments: false
 excerpt: "In this article, I am going to try to explain what the higher-order functions are, first-class citizen and first-class function"
 header:
-  teaser: "/assets/images/2022-02-25-higher-order-functions-in-java/higher.png"
+  #teaser: "/assets/images/2022-02-25-higher-order-functions-in-java/higher.png"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-02-25-higher-order-functions-in-java/higher.png
+  #og_image: /assets/images/2022-02-25-higher-order-functions-in-java/higher.png
+  teaser: "/assets/images/svg-book6.svg"
+  og_image: /assets/images/svg-book6.svg
   overlay_image: /assets/images/svg-book6.svg
   overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
   caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"

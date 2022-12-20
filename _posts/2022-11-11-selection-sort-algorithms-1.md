@@ -3,9 +3,11 @@ title: "Algorithms Part 1 - Selection Sort"
 comments: false
 excerpt: "In this section, I am going to explain what the selection sort algorithm is and how its performance behaves in worst, best and average case scenario"
 header:
-  teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png"
+  #teaser: "/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png"
   #og_image: /assets/images/page-header-og-image.png
-  og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png
+  #og_image: /assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.png
+  teaser: "/assets/images/svg-book7.svg"
+  og_image: /assets/images/svg-book7.svg
   overlay_image: /assets/images/svg-book7.svg
   overlay_filter: 0.3 #rgba(255, 0, 0, 0.5)
   caption: "background by [SVGBackgrounds.com](https://www.svgbackgrounds.com/)"
