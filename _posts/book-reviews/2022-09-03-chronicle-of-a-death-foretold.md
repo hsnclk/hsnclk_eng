@@ -16,7 +16,8 @@ categories:
 tags:
   - 2022 Reading Challenge
 last_modified_at: 2019-12-08T15:12:19-04:00
-toc: false
+toc: true
+toc_sticky: true
 toc_label: "CONTENT"
 ---
 

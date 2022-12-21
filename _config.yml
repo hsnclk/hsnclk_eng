@@ -20,11 +20,11 @@ title                    : "en.hasancelik.org"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hasan Çelik"
-description              : "Hasan Çelik's Personal Website. A blog where I share what I've learned about software and reviews of the books I've read."
+description              : "Hasan Çelik's Personal Website. This is my personal blog where I share what I've learned about software and review of the books I've read."
 url                      : https://en.hasancelik.org # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/equality.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/svg-book4.svg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/hc.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           :  # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "Hasan Çelik"
   avatar           : "/assets/images/bio/hc2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "He is a software developer who likes to develop himself, and is also interested in music, philosophy, psychology, marketing, branding, history, economics and science."
-  location         : "Ankara/Turkey"
-  email            : "hsnclk1985@gmail.com"
+  bio              : "A passionate software developer."
+  location         : # "Ankara/Turkey"
+  email            : # "hsnclk1985@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -302,10 +302,9 @@ defaults:
       comments: true
       share: true
       related: true
-      sidebar:
-        - text: >
-            [![speak friend and enter](/assets/images/speak-friend-and-enter.svg){: height="100%" width="100%" loading="lazy"}](#)
-
+      # sidebar:
+      #   - text: >
+      #       [![speak friend and enter](/assets/images/speak-friend-and-enter.svg){: height="100%" width="100%" loading="lazy"}](#)
 
 picture:
   source: "assets/images/"

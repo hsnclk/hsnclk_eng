@@ -21,6 +21,7 @@ tags:
   - imperative
 last_modified_at: 2022-02-23T15:12:19-04:00
 toc: true
+toc_sticky: true
 toc_label: "CONTENT"
 ---
 
