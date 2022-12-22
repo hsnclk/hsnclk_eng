@@ -23,7 +23,7 @@ last_modified_at: 2022-02-23T15:12:19-04:00
 toc: true
 toc_sticky: true
 toc_label: "CONTENT"
-mathjax: true
+#mathjax: true
 #classes: wide
 ---
 
@@ -139,19 +139,19 @@ The time efficiency of selection sort is quadratic.
 
 ### Best Case Time Complexity of Selection Sort
 
-\\(O(n^{2})\\) comparisons, \\( O(1) \\) swaps.
+*O(n<sup>2</sup>)* comparisons, *O(1)* swaps.
 
-In best case time complexity, we consider the list already sorted. So **O(n)** is **1** as there will be **no** swapping. But to find out whether the list is ordered or not, it would be **comparison** in any case. This brings a **quadratic** time complexity with it, that is, \\(O(n^{2})\\). Because we have **2** nested **for** loops.
+In best case time complexity, we consider the list already sorted. So **O(n)** is **1** as there will be **no** swapping. But to find out whether the list is ordered or not, it would be **comparison** in any case. This brings a **quadratic** time complexity with it, that is, *O(n<sup>2</sup>)*. Because we have **2** nested **for** loops.
 
 ### Worst Case Time Complexity of Selection Sort
 
-\\(O(n^{2})\\) comparisons, \\( O(n) \\) swaps.
+*O(n<sup>2</sup>)* comparisons, *O(n)* swaps.
 
-Software engineers usually concentrate on finding only the **worst-case running time**, that is, the longest running time for any input of size "**n**". Just like in the best case time complexity, the **comparison** takes place in **quadratic** time complexity. But in the worst case scenario, our list of course will **not be sorted**. Because the worst-case scenario requires it. So the **swapping** takes place in \\( O(n) \\) time.
+Software engineers usually concentrate on finding only the **worst-case running time**, that is, the longest running time for any input of size "**n**". Just like in the best case time complexity, the **comparison** takes place in **quadratic** time complexity. But in the worst case scenario, our list of course will **not be sorted**. Because the worst-case scenario requires it. So the **swapping** takes place in *O(n)* time.
 
 ### Average Case Time Complexity of Selection Sort
 
-\\(O(n^{2})\\) comparisons, \\( O(n) \\) swaps.
+*O(n<sup>2</sup>)* comparisons, *O(n)* swaps.
 
 Even if the number of steps in the average time is **half** of the worst case, the result will still be the same as the worst case since constants will not be taken into account in the formulation.
 
@@ -161,9 +161,9 @@ Even if the number of steps in the average time is **half** of the worst case, t
 ---
 The **worst-case running time** of an algorithm gives us an **upper bound** on the running time for any input. Knowing it provides a guarantee that the algorithm will never take any longer.
 
-Also, when describing the best, worst, and average case time complexities, the **dominant term** is always taken into account, even if we express it as \\(O(n^{2})\\) comparisons, \\( O(n) \\) swaps. So;
+Also, when describing the best, worst, and average case time complexities, the **dominant term** is always taken into account, even if we express it as *O(n<sup>2</sup>)* comparisons, *O(n)* swaps. So;
 
-The dominant term of \\(O(n^{2})\\) comparisons, \\( O(n) \\) swaps --> \\(O(n^{2})\\)
+The dominant term of *O(n<sup>2</sup>)* comparisons, *O(n)* swaps --> *O(n<sup>2</sup>)*
 
 </div>
 
