@@ -30,7 +30,7 @@ toc_label: "CONTENT"
 **IMPORTANT :** The notes that I took for myself. I hope they will help you, too. Each resource that I used is added as reference at the end of the page.
 {: .notice}
 
-<div class="notice--success" markdown="1">
+<div class="notice--warning" markdown="1">
 <h4 class="no_toc"><i class="fas fa-lightbulb"></i> Programming Style Series</h4>
 ---
 
@@ -90,7 +90,7 @@ if (listNames.contains("hasan")) {
 ```
 **What is it doing :** well, it is trying to find a special name in the array like previous one.
 
-**NOT "how is it doing it" :** The difference out of the imperative programming style, declarative style hides the details of "**how to do**" parts. As you can see, the *contains* method does the whole job for us and hides the complexity.
+**NOT "how is it doing it" :** The difference out of the imperative programming style, declarative style hides the details of "**how to do**" parts. As you can see, the **contains** method does the whole job for us and hides the complexity.
 
 ## Comparison of enhanced and standard loops in terms of programming styles
 
@@ -98,13 +98,13 @@ In which classification should we evaluate **enhanced** and **standard** for loo
 
 In both cases, it's obvious what we're going to do. Our goal is to print the elements of the array to the console. What about "**how to do**" parts???
 
-**In the standard for loop;** A counter, *i*, is declared and initialized to 0. A boolean expression compares *i* with the length of the *names* array. if *i<names.length*, the code block is executed. *i* is incremented by one at the end of each code block. Within the code block, *i* is used as the array index. As you can see, We explain **how to do** it step by step.
+**In the standard for loop;** A counter, **i**, is declared and initialized to 0. A boolean expression compares **i** with the length of the **names** array. if **i<names.length**, the code block is executed. **i** is incremented by one at the end of each code block. Within the code block, **i** is used as the array index. As you can see, We explain **how to do** it step by step.
 
-**In the enhanced for loop;** A string variable, *name*, is declared to hold each element of the array. But we don't know **how** this loop does all these operations.
+**In the enhanced for loop;** A string variable, **name**, is declared to hold each element of the array. But we don't know **how** this loop does all these operations.
 
 {% picture 2022-02-23-imperative-declarative-programming-in-java/forloops.png --alt for loops example --img width="100%" height="100%"  %}
 
-Actually both the **standard for loop** *(for i = 0...)* and the **enhanced for loop** *(for var x : ...)* are **imperative style**. The **enhanced for loop** is actually a wrapper around
+Actually both the **standard for loop** `(for i = 0...)` and the **enhanced for loop** `(for var x : ...)` are **imperative style**. The **enhanced for loop** is actually a wrapper around
 `iterator.hasNext()` and `iterator.next()`. That is, under the hood this form of iteration uses the `Iterator` interface and calls into its `hasNext` and `next` methods. Furthermore, from the **enhanced for loop** we can do `break` and `continue` with an if condition, and that is where we see the **imperative** nature being
 enhanced clearly.
 

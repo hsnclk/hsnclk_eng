@@ -31,7 +31,7 @@ toc_label: "CONTENT"
 **IMPORTANT :** The notes that I took for myself. I hope they will help you too.. Each resource that I used is added as reference at the end of the page.
 {: .notice}
 
-<div class="notice--success" markdown="1">
+<div class="notice--warning" markdown="1">
 <h4 class="no_toc"><i class="fas fa-lightbulb"></i> Programming Style Series</h4>
 ---
 
