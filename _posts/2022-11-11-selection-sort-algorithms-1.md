@@ -51,7 +51,7 @@ Finally, if you want to shuffle the cards again and restart the game, you can pr
 
 <!-- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif" srcset="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card-small.gif 480w, {{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-algorithms-part1-selection-sort/card.gif 1080w" sizes="50vw" width="420px" height="100%" class="align-center" loading="lazy" alt="Selection Sort Algorithm"> -->
 
-<video autoplay loop muted playsinline width="380px" height="100%" class="align-center" title="Selection Sort Algorithm">
+<video autoplay loop muted playsinline width="380px" height="100%" class="align-center" title="Selection Sort Algorithm" poster="/assets/images/2022-11-11-selection-sort-algorithms-1/poster.png">
   <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.webm" type="video/webm">
   <source src="{{ site.url }}{{ site.baseurl }}/assets/images/2022-11-11-selection-sort-algorithms-1/selection-sort.mp4" type="video/mp4">
 </video>
@@ -94,7 +94,8 @@ public class SelectionSort {
                 list[smallest] = tempValue;
             }
         }
-        //Arrays.stream(list).forEach(value -> System.out.print(value + " - "));
+//       Arrays.stream(list)
+//      .forEach(value -> System.out.print(value + " - "));
     }
 }
 ```
@@ -141,19 +142,19 @@ The time efficiency of selection sort is quadratic.
 
 *O(n<sup>2</sup>)* comparisons, *O(1)* swaps.
 
-In best case time complexity, we consider the list already sorted. So **O(n)** is **1** as there will be **no** swapping. But to find out whether the list is ordered or not, it would be **comparison** in any case. This brings a **quadratic** time complexity with it, that is, *O(n<sup>2</sup>)*. Because we have **2** nested **for** loops.
+In best case time complexity, we consider the list already sorted. So *O(n)* is **1** as there will be **no** swapping. But to find out whether the list is ordered or not, it would be <u>comparison</u> in any case. This brings a <u>quadratic</u> time complexity with it, that is, *O(n<sup>2</sup>)*. Because we have **2** nested **for** loops.
 
 ### Worst Case Time Complexity of Selection Sort
 
 *O(n<sup>2</sup>)* comparisons, *O(n)* swaps.
 
-Software engineers usually concentrate on finding only the **worst-case running time**, that is, the longest running time for any input of size "**n**". Just like in the best case time complexity, the **comparison** takes place in **quadratic** time complexity. But in the worst case scenario, our list of course will **not be sorted**. Because the worst-case scenario requires it. So the **swapping** takes place in *O(n)* time.
+Software engineers usually concentrate on finding only the <u>worst-case running time</u>, that is, the longest running time for any input of size "**n**". Just like in the best case time complexity, the <u>comparison</u> takes place in <u>quadratic</u> time complexity. But in the worst case scenario, our list of course will <u>not be sorted</u>. Because the worst-case scenario requires it. So the <u>swapping</u> takes place in *O(n)* time.
 
 ### Average Case Time Complexity of Selection Sort
 
 *O(n<sup>2</sup>)* comparisons, *O(n)* swaps.
 
-Even if the number of steps in the average time is **half** of the worst case, the result will still be the same as the worst case since constants will not be taken into account in the formulation.
+Even if the number of steps in the average time is <u>half</u> of the worst case, the result will still be the same as the worst case since constants will not be taken into account in the formulation.
 
 
 <div class="notice--warning" markdown="1">
