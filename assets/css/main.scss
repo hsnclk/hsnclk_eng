@@ -23,8 +23,14 @@ html {
     font-size: 15px; // change to whatever
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 1279px) {
     .sidebar-ads {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .speak-friend {
       display: none;
     }
   }
