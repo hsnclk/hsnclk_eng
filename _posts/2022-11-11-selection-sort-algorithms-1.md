@@ -100,11 +100,13 @@ public class SelectionSort {
 }
 ```
 
+---
+
 1. I need two **nested for loops** to apply the **selection sort** to my list(of course not necessary to use for loop). My **outer loop** starts from the beginning of the list, keeping track of <u>the position I want to hold</u>(that is, it becomes our reference value according to the definition above). At the very beginning of the algorithm, this position is of course "**0**". On the other hand, my **inner for loop** checks the other items other than the item in the position that the outer loop holds **to find the smallest item**.  
 2. For each new smallest value found, int "**smallest**" value will be updated throughout the inner for loop.
 3. You will notice that the values for "**smallest**" and "**hasSmallestBeenFounded**" are updated just before you get inside the inner for loop. Because the purpose of the inner for loop is to find the smallest value and compare it with the reference value. If we go outside of the inner loop, we reset these two values to find the next smallest value, assuming that these values have fulfilled their task.
 4. When the inner "for loop" finishes its execution, the boolean value "**hasSmallestBeenFounded**" is marked as `true`, even if at least one smallest value is found. Because the value of **smallest** can change during the inner loop. If the smallest value is not found, the value "**hasSmallestBeenFounded**" remains `false` and is not entered into the "**if**" statement outside the loop.
-5. There is an "**if**" statement inside in the inner loop, **if (list[j + 1] < list[smallest])**. Here, the **smallest** value is compared with the value just after the smallest value. If we encounter a smaller value, we update this value to the new smallest.
+5. There is an "**if**" statement inside in the inner loop, **if (list[j + 1] < list[smallest])**. Here, **smallest**, which is supposed to represent the smallest value, is compared with the values at position "**j + 1**" followed by the inner loop. If the value pointing to the "**j+1**" position is smaller than the current "**smallest**" value, we update this "**smallest**" value with the value representing the "**j+1**" position. You can think of **smallest** as a temporary smallest value.
 6. If the inner loop finds even one smallest value, it enters the **if statement** outside the inner loop, which replaces the smallest value found with the value in the first position(which is of course the position that I hold via outer loop).
 7. After the first position of my outer loop is replaced by the smallest value(if any), we repeat the same process with the 2nd position of my outer loop by increasing the **i** number by **one**. Then, the same operations continue until the **penultimate position(list.length-1)** of my outer loop.
 
